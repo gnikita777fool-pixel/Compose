@@ -1,0 +1,40 @@
+services:
+  # Сервис базы данных MySQL
+  mysql:
+    image: mysql:8.0                          # Официальный образ MySQL 8.0
+    restart: unless-stopped                   # Автоматический перезапуск при падении
+    environment:
+      MYSQL_ROOT_PASSWORD: root               # Пароль для root-пользователя
+      MYSQL_DATABASE: my_database             # Имя базы данных (создается автоматически)
+      MYSQL_USER: my_user                     # Имя дополнительного пользователя
+      MYSQL_PASSWORD: my_password             # Пароль для дополнительного пользователя
+    ports:
+      - "3306:3306"                           # Проброс порта хоста на порт контейнера
+    volumes:
+      - mysql_data:/var/lib/mysql             # Персистентное хранение данных
+    networks:
+      - mysql-pma-network
+
+  # Сервис phpMyAdmin
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest       # Официальный образ phpMyAdmin
+    depends_on:
+      - mysql                                 # Запуск после готовности MySQL
+    restart: unless-stopped
+    ports:
+      - "8083:80"                             # Доступ к phpMyAdmin через порт 8083
+    environment:
+      PMA_HOST: mysql                         # Имя хоста MySQL-сервера (имя сервиса)
+      PMA_PORT: 3306                          # Порт MySQL-сервера
+      PMA_ARBITRARY: 1                        # Разрешает подключение к произвольному серверу (для отладки)
+      UPLOAD_LIMIT: 300M                      # Увеличенный лимит на загрузку SQL-дампов
+    networks:
+      - mysql-pma-network
+
+# Общая сеть для связи контейнеров
+networks:
+  mysql-pma-network:
+
+# Docker-том для хранения данных базы данных
+volumes:
+  mysql_data:
