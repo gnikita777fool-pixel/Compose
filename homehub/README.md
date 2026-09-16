@@ -47,7 +47,7 @@ services:
       - ./config.yml:/app/config.yml:ro
 ```
 
-<img width="1896" height="1325" alt="2" src="https://github.com/user-attachments/assets/cc325922-695c-47f3-be7c-a10284123af9" />
+<img width="1895" height="1335" alt="1" src="https://github.com/user-attachments/assets/4247f7cf-1308-45fe-b2ad-d7dab629800f" />
 
 ### 3. Конфигурация приложения (`config.yml`)
 
@@ -116,7 +116,7 @@ theme:
   sidebar_active_color: "#3b82f6"
 ```
 
-<img width="1895" height="1335" alt="1" src="https://github.com/user-attachments/assets/4247f7cf-1308-45fe-b2ad-d7dab629800f" />
+<img width="1896" height="1325" alt="2" src="https://github.com/user-attachments/assets/cc325922-695c-47f3-be7c-a10284123af9" />
 
 ### 4. Запуск проекта
 
