@@ -63,6 +63,7 @@ cd postgres-docker-project
 ```bash
 docker compose up -d
 ```
+<img width="1783" height="122" alt="2" src="https://github.com/user-attachments/assets/194707cd-65fd-4399-9ed2-099e5cc9f30e" />
 
 ---
 
@@ -93,6 +94,7 @@ services:
       timeout: 10s
       retries: 3
 ```
+<img width="1907" height="548" alt="1" src="https://github.com/user-attachments/assets/73828557-5471-4e69-a7fd-8d6bd411bccb" />
 
 ### Файл `scripts/init.sql`
 Скопируйте этот код в файл `scripts/init.sql`. Скрипт выполнится **только один раз** при первом запуске контейнера, когда папка данных пуста.
@@ -124,6 +126,7 @@ INSERT INTO users (name, email) VALUES
 ('Мария Петрова', 'maria@example.com')
 ON CONFLICT (email) DO NOTHING;
 ```
+<img width="1895" height="547" alt="3" src="https://github.com/user-attachments/assets/e2f139d0-d484-4bc2-8a58-3d61882abed0" />
 
 ---
 
@@ -143,8 +146,6 @@ ON CONFLICT (email) DO NOTHING;
 
 ---
 
-![Скрин](2026-09-15_15-12-52.png)
-
 
 ## 6. Подключение к базе данных
 
@@ -154,6 +155,9 @@ ON CONFLICT (email) DO NOTHING;
 ```bash
 docker exec -it my-postgres psql -U myuser -d mydatabase
 ```
+
+<img width="1791" height="146" alt="4" src="https://github.com/user-attachments/assets/c6900fd2-75ed-4e27-bdd1-28689c362db7" />
+
 > 💡 **Совет:** Для выхода из оболочки `psql` введите `\q` или `EXIT` и нажмите Enter.
 
 ### ⚠️ Важное примечание о подключении через браузер
@@ -165,7 +169,7 @@ docker exec -it my-postgres psql -U myuser -d mydatabase
 - Либо веб-интерфейсы, такие как *Adminer* или *phpPgAdmin*, запущенные в отдельном Docker-контейнере.
 
 ---
-![Скрин](2026-09-15_15-17-02.png)
+
 
 
 ## 7. Очистка и удаление
@@ -215,7 +219,3 @@ docker network ls     # Не должно быть сети проекта (об
    ```
 
 ---
-
-> 📝 **Автор:** Артем Ильич Котохин  
-> 🎓 **Специальность:** 09.02.07 "Информационные системы и программирование"  
-> 📅 **Дата обновления:** Сентябрь 2026 г.
