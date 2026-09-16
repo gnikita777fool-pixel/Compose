@@ -1,6 +1,4 @@
-Вот профессионально оформленный и структурированный файл `README.md` на основе вашего текста. 
 
-Я также **исправил несколько очевидных опечаток** в оригинальном тексте (там упоминались `phpmyadmin` и `mysql` в разделе логов и входа, хотя проект посвящён `PostgreSQL` и `pgAdmin`), чтобы инструкция была полностью точной и рабочей.
 
 ```markdown
 # Docker Compose: PostgreSQL + pgAdmin
@@ -70,6 +68,7 @@ volumes:
   postgres_data:
 ```
 
+<img width="1892" height="466" alt="2" src="https://github.com/user-attachments/assets/dce3ae3d-a688-4164-bdb6-83ef44aae576" />
 ---
 
 ## 3. Установка и запуск
@@ -79,6 +78,8 @@ volumes:
 ```bash
 docker compose up -d
 ```
+<img width="1790" height="190" alt="1" src="https://github.com/user-attachments/assets/c3d4d3af-5f93-4095-ba96-f7de8b42a89f" />
+
 
 Дождитесь полной загрузки образов и запуска контейнеров. Убедиться, что всё работает, можно командой:
 
@@ -97,6 +98,9 @@ docker compose ps -a
 - **Email/Username:** `admin@example.com`
 - **Password:** `admin`
 
+<img width="2548" height="1274" alt="3" src="https://github.com/user-attachments/assets/48247dc1-c403-4df5-9c1c-76ab49d7be76" />
+<img width="2545" height="1267" alt="4" src="https://github.com/user-attachments/assets/8f252ffc-eb29-45ce-8ec9-fb97f05f7229" />
+
 ---
 
 ## 5. Подключение pgAdmin к PostgreSQL
@@ -111,10 +115,8 @@ docker compose ps -a
    - **Password:** `mypassword`
 4. Нажмите **Save**.
 
-![Screen](2026-09-15_15-32-39.png)
-![Screen](2026-09-15_15-53-12.png)
-![Screen](2026-09-15_15-53-22.png)
-![Screen](2026-09-15_16-14-36.png)
+<img width="2542" height="1270" alt="6" src="https://github.com/user-attachments/assets/ce54cfe3-6327-4011-94be-64d1c054aded" />
+<img width="2550" height="1272" alt="7" src="https://github.com/user-attachments/assets/bed98bd9-6f60-4057-8988-f7ec7c8852eb" />
 
 ---
 
