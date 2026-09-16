@@ -192,9 +192,4 @@ docker compose logs -f
    rm -rf libredb-studio
    ```
 
-## 🔗 Полезные ссылки
-
-*   [LibreDB Studio - анонс новой версии (OpenNET)](https://www.opennet.ru/opennews/art.shtml?num=66216)
-*   [GitHub Repository (предположительно)](https://github.com/libredb/libredb-studio) *(проверьте актуальную ссылку)*
-
 ---
