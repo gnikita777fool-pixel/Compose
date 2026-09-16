@@ -84,6 +84,7 @@ services:
 volumes:
   libredb-data:
 ```
+<img width="1894" height="1059" alt="2" src="https://github.com/user-attachments/assets/d89b42cc-b016-4c30-a3bd-b0605278c052" />
 
 ### 3. Настройка переменных окружения (.env)
 
@@ -101,6 +102,7 @@ USER_EMAIL=user@libredb.org
 USER_PASSWORD=UserPassword123!
 EOF
 ```
+<img width="1880" height="1038" alt="1" src="https://github.com/user-attachments/assets/1e01506c-1cef-4481-8697-d9c03e0b5410" />
 
 > ⚠️ **Важно:** Замените `ADMIN_PASSWORD` и `JWT_SECRET` на свои уникальные значения. `JWT_SECRET` должен быть длиной не менее 32 символов.
 
@@ -123,8 +125,8 @@ docker ps -a | grep libredb-studio
 ```bash
 docker compose up -d
 ```
-![Скрин](2026-09-15_21-23-52.png)
 
+<img width="1782" height="131" alt="3" src="https://github.com/user-attachments/assets/6d4893d5-f4bd-4f89-945a-d3e912f3e676" />
 
 
 ### 5. Проверка статуса и логи
@@ -158,8 +160,8 @@ docker compose logs -f
 
 *(Если вы изменили значения в `.env`, используйте их)*
 
-![Скрин](2026-09-15_21-24-42.png)
-![Скрин](2026-09-15_21-25-22.png)
+<img width="2548" height="1267" alt="4" src="https://github.com/user-attachments/assets/1446dcd5-758e-417e-8988-2dfd50aa6e2f" />
+<img width="2537" height="1257" alt="5" src="https://github.com/user-attachments/assets/c2c08ff1-55fd-4f4e-8051-f7cc1d23ab1f" />
 
 
 ## 🗑️ Удаление проекта
