@@ -155,12 +155,9 @@ docker compose ps -a
    ```bash
    docker compose exec mysql bash
    ```
-   ![Вход в контейнер MySQL](/content/Docker/DockerCompose/img/15.png)
    *(Для выхода из контейнера введите команду `exit`)*
 
 ---
-
-![просмотр логов](2026-09-15_12-40-12.png)
 
 ## 6. Удаление проекта
 
