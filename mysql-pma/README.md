@@ -1,5 +1,4 @@
 
-```markdown
 # Docker Compose: MySQL + phpMyAdmin
 
 **phpMyAdmin** — веб‑приложение с открытым исходным кодом на **PHP** для администрирования **MySQL/MariaDB** через браузер. Предоставляет графический интерфейс для управления базами данных без необходимости писать **SQL**‑команды вручную.
@@ -20,6 +19,12 @@ mysql-pma-app/
 └── compose.yaml
 ```
 
+Создать структуру проекта можно одной bash-командой:
+```bash
+mkdir -p mysql-pma-app && touch mysql-pma-app/compose.yaml && cd mysql-pma-app
+```
+
+---
 Создать структуру проекта можно одной bash-командой:
 ```bash
 mkdir -p mysql-pma-app && touch mysql-pma-app/compose.yaml && cd mysql-pma-app
