@@ -64,8 +64,8 @@ volumes:
   db_data:
   wordpress_data:
 ```
-![Скрин](2026-09-15_11-28-02.png)
 
+<img width="1831" height="703" alt="2" src="https://github.com/user-attachments/assets/2b6137c9-4b04-4801-83ef-1bf018454679" />
 
 
 ## 🚀 Шаг 4: Запуск проекта
@@ -75,6 +75,9 @@ volumes:
 ```bash
 docker compose up -d
 ```
+
+<img width="1770" height="161" alt="1" src="https://github.com/user-attachments/assets/6c160d43-46aa-4f24-978c-f63d68eb6e70" />
+
 
 Дождитесь загрузки образов (это может занять несколько минут).
 
@@ -96,9 +99,10 @@ docker compose ps -a
 3. Создайте пользователя (логин/пароль)
 4. Войдите в админ-панель
 
-![Скрин](2026-09-15_11-31-44.png)
-![Скрин](2026-09-15_11-32-52.png)
-![тест блог](2026-09-15_11-37-36.png)
+<img width="2537" height="1246" alt="3" src="https://github.com/user-attachments/assets/40124f2b-4bf3-4bac-a853-27866ffc4125" />
+<img width="2544" height="1275" alt="4" src="https://github.com/user-attachments/assets/bee4ae9e-68cb-4faf-9b93-c31e00915bd0" />
+<img width="2559" height="1256" alt="5" src="https://github.com/user-attachments/assets/66e6de3d-d0c1-4a64-9a07-c705e9516ab0" />
+
 ##  Полезные команды
 
 **Просмотр логов:**
