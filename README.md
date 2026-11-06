@@ -6,7 +6,6 @@
 
 # Материал репозитория:
 
-## [Homehub](./homehub/)
 
 ## [Libredb](./libredb/)
 
@@ -17,6 +16,10 @@
 ## [Postgres-pgadmin](./postgres-pgadmin-app)
 
 ## [Wordpress ](./wordpress)
+
+## [Homehub](./homehub/)
+
+## [Dbeaver](./Dbeaver/)
 ---
 
 Ссылка на **GitFlic** Александр Александровича - *https://gitflic.ru/project/rurewa/mfua*
