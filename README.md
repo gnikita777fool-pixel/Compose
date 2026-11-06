@@ -14,7 +14,7 @@
 
 ## [Postgres-pgadmin](./postgres-pgadmin-app)
 
-## [DrawDB](./drawDB1/)
+## [DrawDB](./DrawDB1/)
 
 ## [Libredb](./libredb/)
 
