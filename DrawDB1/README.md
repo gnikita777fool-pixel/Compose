@@ -18,6 +18,7 @@ docker compose ls
 ```shell
 git clone https://github.com/drawdb-io/drawdb
 ```
+<img width="394" height="531" alt="image" src="https://github.com/user-attachments/assets/4ba0ff90-eea1-4389-9ec5-504dba53cf26" />
 
 Переходим в локальную папку склонированного репозитория
 ```shell
@@ -38,6 +39,7 @@ docker compose ls
 
 [Открыть **drawDB** локально в браузере](http://localhost:5173/)
 
+<img width="2544" height="1201" alt="image" src="https://github.com/user-attachments/assets/aaa25f4e-d90c-405f-a9c4-9d0100e987c7" />
 
 
 ### 3. Удалить проект
@@ -86,10 +88,10 @@ rm -rf drawdb
 
 ```mermaid
 erDiagram
-	Luck ||--|| Sitx : references
-	Luck ||--|| Jedi : references
-	Jedi ||--|| But no : references
-	Sitx ||--|| But no : references
+    "Rebels Jedi" ||--|| "But no" : "references Sit"
+	"Luck" ||--|| "Jedi" : "references"
+	"Jedi" ||--|| "But no" : "references"
+	"Sitx" ||--|| "But no" : "references"
 
 	Luck {
 		INTEGER id
