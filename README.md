@@ -6,8 +6,6 @@
 
 # Материал репозитория:
 
-## [Joomla](./joomla-docker/)
-
 ## [Wordpress](./wordpress/)
 
 ## [MySQL](./mysql-pma/)
