@@ -155,31 +155,31 @@ erDiagram
 ```
 ```mermaid
 erDiagram
-	Люк Скайволкер ||--|| Ситх : references
-	Люк Скайволкер ||--|| Джедай : references
-	Джедай ||--|| Но возможно  : references
-	Ситх ||--|| Но возможно  : references
+	Luck ||--|| Sitx : references
+	Luck ||--|| Jedi : references
+	Jedi ||--|| But no : references
+	Sitx ||--|| But no : references
 
-	Люк Скайволкер {
+	Luck {
 		INTEGER id
-		INTEGER Не очень крутой перец
-		INTEGER Крутой перец
+		INTEGER Not coo;
+		INTEGER Cool
 	}
 
-	Ситх {
+	Sitx {
 		INTEGER Id
-		INTEGER Да
+		INTEGER Yes
 	}
 
-	Джедай {
+	Jedi {
 		INTEGER id
-		INTEGER Нет
+		INTEGER No
 	}
 
-	Но возможно  {
+	But no {
 		INTEGER id
-		INTEGER Обиван
-		INTEGER Дарт Вейдер
+		INTEGER Obivan
+		INTEGER Dart Waider
 	}
 ```
 > Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
