@@ -89,30 +89,31 @@ rm -rf drawdb
 ```mermaid
 erDiagram
     "Rebels Jedi" ||--|| "But no" : "references Sit"
-	"Luck" ||--|| "Jedi" : "references"
-	"Jedi" ||--|| "But no" : "references"
-	"Sitx" ||--|| "But no" : "references"
+    "Luck" ||--|| "Jedi" : "references"
+    "Jedi" ||--|| "But no" : "references"
+    "Sitx" ||--|| "But no" : "references"
 
-	Luck {
-		INTEGER id
-		INTEGER Not coo;
-		INTEGER Cool
-	}
+    Luck {
+        INTEGER id
+        INTEGER Not_coo
+        INTEGER Cool
+    }
 
-	Sitx {
-		INTEGER Id
-		INTEGER Yes
-	}
+    Sitx {
+        INTEGER Id
+        INTEGER Yes
+    }
 
-	Jedi {
-		INTEGER id
-		INTEGER No
-	}
+    Jedi {
+        INTEGER id
+        INTEGER No
+    }
 
-	But no {
-		INTEGER id
-		INTEGER Obivan
-		INTEGER Dart Waider
-	}
+    "But no" {
+        INTEGER id
+        INTEGER Obivan
+        INTEGER "Dart Waider"
+    }
+}
 ```
 > Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
