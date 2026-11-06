@@ -91,23 +91,22 @@ erDiagram
     "Ситх" ||--|| "Но возможно" : "references"
     "Люк Скайволкер" {
         INTEGER id
-        INTEGER "Не очень крутой перец"
-        INTEGER "Крутой перец"
+        INTEGER not_very_cool "Не очень крутой перец"
+        INTEGER cool "Крутой перец"
     }
     "Ситх" {
         INTEGER Id
-        INTEGER Да
+        INTEGER da "Да"
     }
     "Джедай" {
         INTEGER id
-        INTEGER Нет
+        INTEGER net "Нет"
     }
     "Но возможно" {
         INTEGER id
-        INTEGER Обиван
-        INTEGER "Дарт Вейдер"
+        INTEGER obivan "Обиван"
+        INTEGER dart_veider "Дарт Вейдер"
     }
-}
 ```
 ---
 > Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
