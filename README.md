@@ -6,8 +6,7 @@
 
 # Материал репозитория:
 
-
-## [Libredb](./libredb/)
+## [Wordpress ](./wordpress)
 
 ## [MySQL](./mysql-pma/)
 
@@ -15,7 +14,7 @@
 
 ## [Postgres-pgadmin](./postgres-pgadmin-app)
 
-## [Wordpress ](./wordpress)
+## [Libredb](./libredb/)
 
 ## [Homehub](./homehub/)
 
